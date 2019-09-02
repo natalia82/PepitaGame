@@ -7,11 +7,12 @@ public class Ave {
 	public Ave (String nombre, int energia) {
 		this.nombre = nombre;
 		this.energia = energia;
+		this.energia = energia;
 		
 	}
 	
 	public void come(Comida comida) {
-		this.energia += comida.getEnergia();
+		this.energia += comida.getEnergia(); 
 		
 	}
 
